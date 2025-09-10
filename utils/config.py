@@ -2,7 +2,10 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
+<<<<<<< HEAD
 	TOPK_API_KEY: str
+=======
+>>>>>>> 5a3e66d (initial embedding code)
 	QDRANT_URL: str
 	MILVUS_HOST: str
 	MILVUS_PORT: int

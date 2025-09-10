@@ -1,14 +1,20 @@
+<<<<<<< HEAD
 import argparse
 from pathlib import Path
 
+=======
+>>>>>>> 5a3e66d (initial embedding code)
 import numpy as np
 import pandas as pd
 from datetime import datetime
 
 from sentence_transformers import SentenceTransformer
 
+<<<<<<< HEAD
 from utils.config import settings
 
+=======
+>>>>>>> 5a3e66d (initial embedding code)
 
 def build_text_row(row):
 	seeds = row.get("seeds", "")
@@ -31,6 +37,7 @@ def embed_data(
 	m, s = divmod(ts, 60)
 	print(f"Total time taken to Embed data: {int(m)} minutes {int(s)} seconds")
 	return vectors
+<<<<<<< HEAD
 
 
 def main():
@@ -57,3 +64,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+=======
+>>>>>>> 5a3e66d (initial embedding code)
